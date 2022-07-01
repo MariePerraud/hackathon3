@@ -1,0 +1,81 @@
+.solocontainer {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.solotext {
+  color: white;
+  margin: 20px;
+  width: 800px;
+}
+
+.solotext p {
+  margin: 20px;
+}
+
+.soloCard {
+  height: 40vw;
+  background-color: #d81159;
+  border-radius: 15% 5%;
+}
+.soloImage {
+  height: 250px;
+  width: 100%;
+  border-radius: 25px 25px 0px 0px;
+  object-fit: cover;
+}
+
+.solobtn {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  position: absolute;
+  top: 75px;
+  right: 325px;
+  border: none;
+  color: white;
+  background-color: #d81159;
+  transition: transform 0.2s;
+}
+
+.solobtn:hover {
+  transform: scale(1.1);
+}
+
+.participate {
+  height: 100vw;
+  width: 100vw;
+  background-color: #white;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.participateText {
+  position: absolute;
+  top: 100px;
+  right: 490px;
+  background-color: #d81159;
+  opacity: 100%;
+  height: 150px;
+  width: 500px;
+  border-radius: 25px;
+  padding: 35px;
+  text-align: center;
+  color: white;
+}
+
+.participateText h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.participateText p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}

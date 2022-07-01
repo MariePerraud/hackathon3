@@ -1,10 +1,9 @@
 .register-title h2 {
-  color: var(--white);
-  font-family: var(--font);
+  margin-bottom: 4px;
   text-align: center;
-  margin-top: 17vh;
+  margin-top: 3vh;
   font-weight: 300;
-  margin-bottom: 1vh;
+  font-size: 1.5rem;
 }
 
 .form-register {
@@ -18,9 +17,9 @@
 .inputOffice,
 .inputEmail,
 .inputPassword {
-  width: 90vw;
+  width: 40vw;
   border-radius: 10px;
-  height: 3.5rem;
+  height: 3.8rem;
   border: none;
   margin-bottom: 40px;
   background-color: #222222;
@@ -37,24 +36,14 @@
   color: #5abdb2;
 }
 
-.div-arrow-return {
-  margin-left: -1rem;
-}
-
-@media screen and (min-width: 768px) {
-  .inputFirstname,
-  .inputLastname,
-  .inputOffice,
-  .inputEmail,
-  .inputPassword {
-    width: 30vw;
-    height: 3.8rem;
-  }
-  .register-title h2 {
-    font-size: 1.5rem;
-  }
-}
-
-a {
+.regbutton {
+  width: 40vw;
+  max-width: 500px;
+  height: 3.8rem;
+  max-height: 70px;
+  background-color: #00cc88;
+  color: white;
+  border-radius: 10px;
   text-decoration: none;
+  font-size: 1.3rem;
 }

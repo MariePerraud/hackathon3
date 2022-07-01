@@ -25,10 +25,11 @@ export default function AddProject() {
   };
 
   return (
-    <div>
+    <>
       <NavBar />
-      <body className="AddProject">
-        <h1 style={{ padding: "2rem" }}>LET'S DESCRIBE YOUR PROJECT!</h1>
+      <div className="AddProject">
+        <h1>LET'S DESCRIBE YOUR PROJECT !</h1>
+        <br />
         <br />
         <form>
           <div className="form">
@@ -41,7 +42,6 @@ export default function AddProject() {
               value={name}
               onChange={(e) => setName(e.target.value)}
               placeholder="Firstname Lastname"
-              // required
             />
 
             <br />
@@ -58,7 +58,6 @@ export default function AddProject() {
               value={mail}
               onChange={(e) => setMail(e.target.value)}
               placeholder="Professional email"
-              // required
             />
             <br />
             <br />
@@ -73,11 +72,10 @@ export default function AddProject() {
               value={projectName}
               onChange={(e) => setProjectName(e.target.value)}
               placeholder="Project X"
-              // required
             />
             <br />
             <br />
-            <label htmlFor="crew">How many members are needed? </label>
+            <label htmlFor="crew">How many members are needed?</label>
             <br />
             <input
               id="crew"
@@ -87,7 +85,6 @@ export default function AddProject() {
               value={crew}
               onChange={(e) => setCrew(e.target.value)}
               placeholder="0"
-              // required
             />
             <br />
             <br />
@@ -102,7 +99,6 @@ export default function AddProject() {
               value={skills}
               onChange={(e) => setSkills(e.target.value)}
               placeholder="Be as specific as possible"
-              // required
             />
             <br />
             <br />
@@ -116,7 +112,6 @@ export default function AddProject() {
               type="date"
               value={departureDate}
               onChange={(e) => setDepartureDate(e.target.value)}
-              // required
             />
             <br />
             <br />
@@ -131,7 +126,6 @@ export default function AddProject() {
               value={description}
               onChange={(e) => setDescription(e.target.value)}
               placeholder="Be as specific as possible"
-              // required
             />
             <br />
             <br />
@@ -147,7 +141,7 @@ export default function AddProject() {
         </form>
         <br />
         <br />
-      </body>
-    </div>
+      </div>
+    </>
   );
 }

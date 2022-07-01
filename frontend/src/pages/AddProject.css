@@ -1,13 +1,20 @@
-body.AddProject {
+div.AddProject {
   background-size: contain;
   background-image: url("https://img.freepik.com/vecteurs-libre/demarrage-entreprise-homme-affaires-volant-fusee_107791-9852.jpg?t=st=1656593542~exp=1656594142~hmac=c0f8409f2af349cf910ac631bc0d5de4af494b0ee9ce2760ed00e49ebcc42ac3&w=1380");
 }
 
 .AddProject h1 {
   text-align: center;
-  color: crimson;
+  color: white;
   text-shadow: 3px 3px 3px grey;
   font-size: 3rem;
+  padding: 2rem;
+  width: 40%;
+  margin: 0% 30% 0 30%;
+  /* border: solid black 1px; */
+  box-shadow: 0.5rem 0.5rem 0.5rem grey;
+  border-radius: 10px;
+  background-color: #7acdff;
 }
 
 .AddProject form {
@@ -21,9 +28,10 @@ body.AddProject {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: white;
+  background-color: #7acdff;
   padding: 2rem;
-  border: solid 1px;
+  /* border: solid 1px; */
+  box-shadow: 0.5rem 0.5rem 0.5rem grey;
   border-radius: 5px;
 }
 
@@ -52,7 +60,7 @@ body.AddProject {
   box-shadow: 0.25rem 0.25rem 0.25rem grey;
   font-weight: 600;
   font-size: 1.1rem;
-  background-color: crimson;
+  background-color: white;
   border: none;
   border-radius: 5px;
   margin-left: 42%;

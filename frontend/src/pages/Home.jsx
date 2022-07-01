@@ -43,7 +43,7 @@ export default function Home() {
             type="submit"
             onClick={handleSearch}
           >
-            Search 🚀
+            🔎
           </button>
         </div>
 
@@ -60,20 +60,20 @@ export default function Home() {
 
         <div className="titleProject">
           <h2>Upcoming Projects 📣</h2>
-          <Link to="/projects/upcoming">
-            <p className="arrowtext">
-              See more <i className="arrow right" />
-            </p>
-          </Link>
+          <p className="arrowtext">
+            See more <i className="arrow right" />
+          </p>
         </div>
         <div className="futureProjContainer">
           <div className="redCard">
-            <img
-              className="projectImage"
-              src={`${analytics}`}
-              alt="project-pic"
-            />
-            <ProjectCard data={ProjectsList[3]} />
+            <Link to="/project">
+              <img
+                className="projectImage"
+                src={`${analytics}`}
+                alt="project-pic"
+              />
+              <ProjectCard data={ProjectsList[3]} />
+            </Link>
           </div>
           <div className="greenCard">
             <img
@@ -91,11 +91,9 @@ export default function Home() {
 
         <div className="titleProject">
           <h2>Projects in progress ⏳</h2>
-          <Link to="/projects/inprogress">
-            <p className="arrowtext">
-              See more <i className="arrow right" />
-            </p>
-          </Link>
+          <p className="arrowtext">
+            See more <i className="arrow right" />
+          </p>
         </div>
         <div className="pastProjContainer">
           <div className="blueCard">
@@ -126,11 +124,9 @@ export default function Home() {
 
         <div className="titleProject">
           <h2>Finished Projects 🎬</h2>
-          <Link to="/projects/login">
-            <p className="arrowtext">
-              See more <i className="arrow right" />
-            </p>
-          </Link>
+          <p className="arrowtext">
+            See more <i className="arrow right" />
+          </p>
         </div>
         <div className="presentProjContainer">
           <div className="greenCard">

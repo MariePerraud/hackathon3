@@ -1,76 +1,74 @@
-import React from "react";
-import Fake2 from "../assets/FakeProject2.jpg";
-//  import { Link } from "react-router-dom";
-//  import SearchBar from "../components/SearchBar";
-// import ProjectCard from "../components/ProjectCard";
-// import ProjectsList from "../data/ProjectsList";
 import "./Profile.css";
 import NavBar from "../components/NavBar";
+import ProjectsList from "../data/ProjectsList";
+import ProjectProfil from "../components/ProjectProfil";
+import Fake1 from "../assets/ImageWeb.jpg";
+import Fake2 from "../assets/blockchain.jpeg";
+import Fake3 from "../assets/envio-18.jpg";
+import Fake4 from "../assets/imggraph.png";
+import Fake5 from "../assets/judge_set1.jpg";
+import Fake6 from "../assets/nadec.jpg";
+import Fake7 from "../assets/succes_project-04.jpg";
+import Fake8 from "../assets/vecteezy_business.jpg";
+import wankul from "../assets/avatar.png";
 
 export default function Profile() {
   return (
     <>
       <NavBar />
-      <div>
-        <h2>Upcoming Projects :</h2>
-        <div className="ButtonMoreProjects">
-          <button type="button" style={{ backgroundColor: "grey" }}>
-            More projects
-          </button>
-          <div className="FakeImage2">
-            <img src={Fake2} alt="ImageFake" />
-          </div>
-          <div className="Content">
-            <p>
-              typesetting, remaining essentially unchanged. It was popularised
-              in the 1960s with the release of Letraset sheets containing Lorem
-              Ipsum passages, and more recently with desktop publishing software
-              like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
+      <div className="profile-container">
+        <div className="headline">
+          <div className="avatarcontainer">
+            <img className="profilePic" src={`${wankul}`} alt="userpic" />
+            <h1>Justin Thyme</h1>
+            <p>justin.thyme@apside.com</p>
+            <p>Nantes</p>
+            <h2>⚡ Javascript Developper 💻</h2>
           </div>
         </div>
 
-        <div>
-          <h2>Projects in progress :</h2>
-
-          <div className="ButtonMoreProjects">
-            <button type="button" style={{ backgroundColor: "grey" }}>
-              More projects
-            </button>
-
-            <div className="FakeImage2">
-              <img src={Fake2} alt="ImageFake" />
-            </div>
-
-            <div className="Content">
-              <p>
-                typesetting, remaining essentially unchanged. It was popularised
-                in the 1960s with the release of Letraset sheets containing
-                Lorem Ipsum passages, and more recently with desktop publishing
-                software like Aldus PageMaker including versions of Lorem Ipsum.
-              </p>
-            </div>
+        <div className="contribution">
+          <h2>Projects I contributed to 🤝</h2>
+        </div>
+        <div className="profileLine">
+          <div className="rougeCard">
+            <img className="profileImage" src={`${Fake1}`} alt="project-pic" />
+            <ProjectProfil data={ProjectsList[11]} />
           </div>
 
-          <h2>Finished Projects :</h2>
+          <div className="vertCard">
+            <img className="profileImage" src={`${Fake2}`} alt="project-pic" />
+            <ProjectProfil data={ProjectsList[12]} />
+          </div>
 
-          <div className="ButtonMoreProjects">
-            <button type="button" style={{ backgroundColor: "grey" }}>
-              More projects
-            </button>
+          <div className="bleuCard">
+            <img className="profileImage" src={`${Fake3}`} alt="project-pic" />
+            <ProjectProfil data={ProjectsList[13]} />
+          </div>
 
-            <div className="FakeImage2">
-              <img src={Fake2} alt="ImageFake" />
-            </div>
+          <div className="vertCard">
+            <img className="profileImage" src={`${Fake4}`} alt="project-pic" />
+            <ProjectProfil data={ProjectsList[14]} />
+          </div>
 
-            <div className="Content">
-              <p>
-                typesetting, remaining essentially unchanged. It was popularised
-                in the 1960s with the release of Letraset sheets containing
-                Lorem Ipsum passages, and more recently with desktop publishing
-                software like Aldus PageMaker including versions of Lorem Ipsum.
-              </p>
-            </div>
+          <div className="rougeCard">
+            <img className="profileImage" src={`${Fake5}`} alt="project-pic" />
+            <ProjectProfil data={ProjectsList[15]} />
+          </div>
+
+          <div className="bleuCard">
+            <img className="profileImage" src={`${Fake6}`} alt="project-pic" />
+            <ProjectProfil data={ProjectsList[16]} />
+          </div>
+
+          <div className="rougeCard">
+            <img className="profileImage" src={`${Fake7}`} alt="project-pic" />
+            <ProjectProfil data={ProjectsList[17]} />
+          </div>
+
+          <div className="bleuCard">
+            <img className="profileImage" src={`${Fake8}`} alt="project-pic" />
+            <ProjectProfil data={ProjectsList[18]} />
           </div>
         </div>
       </div>
