@@ -1,0 +1,121 @@
+.headline {
+  margin: 30px;
+  background-color: #f46036;
+  height: 450px;
+  width: 40vw;
+  border-radius: 75px 25px 75px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profilePic {
+  height: 250px;
+  width: auto;
+  margin-bottom: 10px;
+  border-radius: 100%;
+}
+.profileImage {
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 35%;
+  border-radius: 50px 25px 0px 0px;
+}
+
+.rougeCard {
+  background-color: #f05;
+  border-radius: 30% 30% 25% 10%;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: transform 0.2s;
+}
+
+.rougeCard:hover {
+  transform: scale(1.1);
+}
+
+.vertCard {
+  background-color: #0c8;
+  border-radius: 30% 30% 25% 10%;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: transform 0.2s;
+}
+
+.vertCard:hover {
+  transform: scale(1.1);
+}
+
+.bleuCard {
+  background-color: #0099ff;
+  border-radius: 30% 30% 25% 10%;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: transform 0.2s;
+}
+
+.bleuCard:hover {
+  transform: scale(1.1);
+}
+
+.profileLine {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 90px;
+  justify-content: center;
+}
+
+.profile-container h2 {
+  padding: 20px;
+  text-align: center;
+}
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+
+.profilecardcontainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+  gap: 10px;
+  height: 50px;
+  width: 100px;
+}
+
+.profilecardcontainer h1 {
+  color: white;
+}
+.avatarcontainer {
+  height: 350px;
+  text-align: center;
+  color: white;
+}
+
+.contribution {
+  display: flex;
+  height: 100px;
+}
+
+.projectProfile {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 12px;
+}

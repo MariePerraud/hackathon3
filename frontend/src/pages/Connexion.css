@@ -1,15 +1,27 @@
 .connexion-container {
   background-color: #222222;
-}
-.div-logo-connexion {
-  height: 2vh;
-}
-.div-logo-connexion img {
-  width: 40vw;
-  height: 40vh;
+  height: 45rem;
 }
 
-.connexion-container h2 {
-  color: white;
-  font-size: 2rem;
+div.div-logo-connexion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+img.logo-connexion {
+  width: 10vw;
+  height: 10vh;
+  margin-top: -600px;
+  margin-left: -408px;
+}
+
+div.div-link1 {
+  margin-top: 168px;
+}
+
+div.div-link2 {
+  margin-top: 185px;
 }
