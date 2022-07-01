@@ -1,15 +1,24 @@
 .connexion-container {
   background-color: #222222;
-}
-.div-logo-connexion {
-  height: 2vh;
-}
-.div-logo-connexion img {
-  width: 40vw;
-  height: 40vh;
+  height: 50vh;
 }
 
-.connexion-container h2 {
-  color: white;
-  font-size: 2rem;
+img.logo-connexion {
+  width: 20vw;
+  height: 20vh;
+}
+
+div.div-logo-connexion {
+  margin-top: -430px;
+  margin-left: 5rem;
+}
+
+div.div-link1 {
+  margin-top: -80px;
+  margin-left: 520px;
+}
+
+div.div-link2 {
+  margin-top: -15px;
+  margin-left: 915px;
 }
